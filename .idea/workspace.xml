@@ -4,24 +4,62 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="819c39ab-b941-45c1-ac48-27126f1f5be7" name="Changes" comment="" />
+    <list default="true" id="819c39ab-b941-45c1-ac48-27126f1f5be7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/cloud-dubbo-consumer-order8002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-dubbo-consumer-order8002/src/main/java/com/bee/OrderConsumerDubboMain8002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-dubbo-consumer-order8002/src/main/java/com/bee/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-dubbo-consumer-order8002/src/main/java/com/bee/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-dubbo-consumer-order8002/src/main/java/com/bee/service/fallback/PaymentFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-dubbo-consumer-order8002/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-dubbo-provider-payment8001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-dubbo-provider-payment8001/src/main/java/com/bee/ProviderDubboMain8001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-dubbo-provider-payment8001/src/main/java/com/bee/service/impl/PaymentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-dubbo-provider-payment8001/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-service-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-service-api/src/main/java/com/bee/service/IPaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="2J5PPgLLBW0wTxWRfaSXnIUAzMN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.23555556" />
+    <property name="project.structure.side.proportion" value="0.14306152" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RunDashboard">
@@ -30,6 +68,48 @@
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.OrderConsumerDubboMain8002">
+    <configuration name="OrderConsumerDubboMain8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-dubbo-consumer-order8002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bee.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bee.OrderConsumerDubboMain8002" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderDubboMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-dubbo-provider-payment8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bee.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bee.ProviderDubboMain8001" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.OrderConsumerDubboMain8002" />
+      <item itemvalue="Spring Boot.ProviderDubboMain8001" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.OrderConsumerDubboMain8002" />
+        <item itemvalue="Spring Boot.ProviderDubboMain8001" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -40,10 +120,29 @@
       <option name="presentableId" value="Default" />
       <updated>1671364948479</updated>
       <workItem from="1671364950044" duration="2126000" />
+      <workItem from="1671367708717" duration="688000" />
+      <workItem from="1671433900393" duration="9907000" />
+      <workItem from="1672193537484" duration="13709000" />
+      <workItem from="1672285047518" duration="2837000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
