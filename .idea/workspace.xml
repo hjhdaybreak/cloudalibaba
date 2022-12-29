@@ -5,18 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="819c39ab-b941-45c1-ac48-27126f1f5be7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-dubbo-consumer-order8002/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-dubbo-consumer-order8002/src/main/java/com/bee/OrderConsumerDubboMain8002.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-dubbo-consumer-order8002/src/main/java/com/bee/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-dubbo-consumer-order8002/src/main/java/com/bee/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-dubbo-consumer-order8002/src/main/java/com/bee/service/fallback/PaymentFallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-dubbo-consumer-order8002/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-dubbo-provider-payment8001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-dubbo-provider-payment8001/src/main/java/com/bee/ProviderDubboMain8001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-dubbo-provider-payment8001/src/main/java/com/bee/service/impl/PaymentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-dubbo-provider-payment8001/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-service-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-service-api/src/main/java/com/bee/service/IPaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-dubbo-consumer-order8002/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-dubbo-provider-payment8001/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-nacos-config3344/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-nacos-config3344/src/main/java/com/bee/NacosConfigMain3344.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-nacos-config3344/src/main/java/com/bee/controller/NacosConfigController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-nacos-config3344/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-dubbo-consumer-order8002/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-dubbo-consumer-order8002/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-dubbo-consumer-order8002/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-dubbo-consumer-order8002/src/main/resources/application.yaml.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-dubbo-provider-payment8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-dubbo-provider-payment8001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-dubbo-provider-payment8001/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-dubbo-provider-payment8001/src/main/resources/application.yaml.bak" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +58,7 @@
     <property name="project.structure.proportion" value="0.23555556" />
     <property name="project.structure.side.proportion" value="0.14306152" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="settings.editor.selected.configurable" value="build.tools" />
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -70,6 +68,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.OrderConsumerDubboMain8002">
+    <configuration name="NacosConfigMain3344" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-nacos-config3344" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bee.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bee.NacosConfigMain3344" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OrderConsumerDubboMain8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-dubbo-consumer-order8002" />
       <extension name="coverage">
@@ -103,11 +114,13 @@
     <list>
       <item itemvalue="Spring Boot.OrderConsumerDubboMain8002" />
       <item itemvalue="Spring Boot.ProviderDubboMain8001" />
+      <item itemvalue="Spring Boot.NacosConfigMain3344" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.OrderConsumerDubboMain8002" />
         <item itemvalue="Spring Boot.ProviderDubboMain8001" />
+        <item itemvalue="Spring Boot.NacosConfigMain3344" />
       </list>
     </recent_temporary>
   </component>
@@ -123,7 +136,8 @@
       <workItem from="1671367708717" duration="688000" />
       <workItem from="1671433900393" duration="9907000" />
       <workItem from="1672193537484" duration="13709000" />
-      <workItem from="1672285047518" duration="2837000" />
+      <workItem from="1672285047518" duration="5533000" />
+      <workItem from="1672316336955" duration="4747000" />
     </task>
     <servers />
   </component>

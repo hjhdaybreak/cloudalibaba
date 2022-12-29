@@ -1,0 +1,26 @@
+server:
+  port: 8002
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
+    allow-circular-references: true
+
+  application:
+    name: order-consumer-dubbo
+
+  cloud:
+    nacos:
+      config:
+        #nacos 服务器地址
+        server-addr: 192.168.174.129:8848
+        #命名空间 默认为 Public    命名空间的 UUID
+        namespace: db9bea26-35c7-4b25-af7d-44247fc28f11
+        #指定配置群组 --如果是 Public 命名空间 则可以省略群组配置
+        group: DEFAULT_GROUP
+        #文件名 -- 如果没有配置则默认为 ${spring.application.name}
+        prefix: ${spring.application.name}
+        #指定文件后缀
+        file-extension: yaml
+  profiles:
+    active: dev
