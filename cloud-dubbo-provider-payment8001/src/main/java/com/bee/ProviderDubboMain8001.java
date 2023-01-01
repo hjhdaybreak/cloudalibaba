@@ -13,6 +13,6 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 public class ProviderDubboMain8001 {
     public static void main(String[] args) {
         SpringApplication.run(ProviderDubboMain8001.class,args);
-        log.info("************** ProviderDubboMain8001 *********");
+        log.info("************** ProviderDubboMain8001 启动成功 *********");
     }
 }

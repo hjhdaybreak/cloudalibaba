@@ -1,20 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+    <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="819c39ab-b941-45c1-ac48-27126f1f5be7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-dubbo-consumer-order8002/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-dubbo-provider-payment8001/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-nacos-config3344/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-nacos-config3344/src/main/java/com/bee/NacosConfigMain3344.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-nacos-config3344/src/main/java/com/bee/controller/NacosConfigController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-nacos-config3344/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-dubbo-consumer-order8002/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-dubbo-consumer-order8002/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-dubbo-consumer-order8002/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-dubbo-consumer-order8002/src/main/resources/application.yaml.bak" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-dubbo-provider-payment8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-dubbo-provider-payment8001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-dubbo-provider-payment8001/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-dubbo-provider-payment8001/src/main/resources/application.yaml.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway9090/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway9090/src/main/java/com/bee/GatewayMain9090.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway9090/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-sentinel-payment8001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-sentinel-payment8001/src/main/java/com/bee/PaymentSentinelMain8001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-sentinel-payment8001/src/main/java/com/bee/config/HeaderOriginParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-sentinel-payment8001/src/main/java/com/bee/contoller/FlowLimitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-sentinel-payment8001/src/main/java/com/bee/contoller/GoodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-sentinel-payment8001/src/main/java/com/bee/contoller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-sentinel-payment8001/src/main/java/com/bee/service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-sentinel-payment8001/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-dubbo-consumer-order8002/src/main/java/com/bee/OrderConsumerDubboMain8002.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-dubbo-consumer-order8002/src/main/java/com/bee/OrderConsumerDubboMain8002.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-dubbo-consumer-order8002/target/classes/com/bee/OrderConsumerDubboMain8002.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-dubbo-consumer-order8002/target/classes/com/bee/OrderConsumerDubboMain8002.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-dubbo-provider-payment8001/src/main/java/com/bee/ProviderDubboMain8001.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-dubbo-provider-payment8001/src/main/java/com/bee/ProviderDubboMain8001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-dubbo-provider-payment8001/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-dubbo-provider-payment8001/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-dubbo-provider-payment8001/target/classes/com/bee/ProviderDubboMain8001.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-dubbo-provider-payment8001/target/classes/com/bee/ProviderDubboMain8001.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-nacos-config3344/src/main/java/com/bee/NacosConfigMain3344.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-nacos-config3344/src/main/java/com/bee/NacosConfigMain3344.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-nacos-config3344/target/classes/com/bee/NacosConfigMain3344.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-nacos-config3344/target/classes/com/bee/NacosConfigMain3344.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,13 +56,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable" value="ALL" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.23555556" />
     <property name="project.structure.side.proportion" value="0.14306152" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -67,7 +76,20 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.OrderConsumerDubboMain8002">
+  <component name="RunManager" selected="Spring Boot.PaymentSentinelMain8001">
+    <configuration name="GatewayMain9090" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-gateway9090" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bee.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bee.GatewayMain9090" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NacosConfigMain3344" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-nacos-config3344" />
       <extension name="coverage">
@@ -96,6 +118,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PaymentSentinelMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-sentinel-payment8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bee.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bee.PaymentSentinelMain8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProviderDubboMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-dubbo-provider-payment8001" />
       <extension name="coverage">
@@ -115,9 +150,13 @@
       <item itemvalue="Spring Boot.OrderConsumerDubboMain8002" />
       <item itemvalue="Spring Boot.ProviderDubboMain8001" />
       <item itemvalue="Spring Boot.NacosConfigMain3344" />
+      <item itemvalue="Spring Boot.PaymentSentinelMain8001" />
+      <item itemvalue="Spring Boot.GatewayMain9090" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.PaymentSentinelMain8001" />
+        <item itemvalue="Spring Boot.GatewayMain9090" />
         <item itemvalue="Spring Boot.OrderConsumerDubboMain8002" />
         <item itemvalue="Spring Boot.ProviderDubboMain8001" />
         <item itemvalue="Spring Boot.NacosConfigMain3344" />
@@ -137,7 +176,13 @@
       <workItem from="1671433900393" duration="9907000" />
       <workItem from="1672193537484" duration="13709000" />
       <workItem from="1672285047518" duration="5533000" />
-      <workItem from="1672316336955" duration="4747000" />
+      <workItem from="1672316336955" duration="6103000" />
+      <workItem from="1672369476302" duration="1205000" />
+      <workItem from="1672370776466" duration="3511000" />
+      <workItem from="1672452938722" duration="7642000" />
+      <workItem from="1672491767903" duration="3294000" />
+      <workItem from="1672546391760" duration="2334000" />
+      <workItem from="1672561890929" duration="2712000" />
     </task>
     <servers />
   </component>

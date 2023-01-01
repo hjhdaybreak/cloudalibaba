@@ -1,0 +1,21 @@
+server:
+  port: 9090
+
+spring:
+  application:
+    name: gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.174.129:8848
+    gateway:
+      routes:
+        # 路由名字
+        - id: payment
+          #目标地址
+          uri: lb://payment-provider-sentinel
+          #断言
+          predicates:
+            - Path=/payment/*
+      default-filters:
+        - AddRequestHeader=origin,gateway

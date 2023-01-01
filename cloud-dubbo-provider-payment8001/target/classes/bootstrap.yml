@@ -8,6 +8,7 @@ spring:
 
   application:
     name: payment-provider-dubbo
+
   cloud:
     nacos:
       config:

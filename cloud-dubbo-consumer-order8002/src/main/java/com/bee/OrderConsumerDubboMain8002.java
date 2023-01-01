@@ -11,6 +11,6 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 public class OrderConsumerDubboMain8002 {
     public static void main(String[] args) {
         SpringApplication.run(OrderConsumerDubboMain8002.class, args);
-        log.info("************** OrderConsumerDubboMain8002 *********");
+        log.info("************** OrderConsumerDubboMain8002  启动成功 *********");
     }
 }

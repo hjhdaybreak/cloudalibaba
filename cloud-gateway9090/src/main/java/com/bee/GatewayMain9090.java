@@ -5,17 +5,12 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
-/**
- * 主启动类
- */
+@EnableDiscoveryClient
 @SpringBootApplication
 @Slf4j
-@EnableDiscoveryClient
-public class NacosConfigMain3344 {
+public class GatewayMain9090 {
     public static void main(String[] args) {
-        SpringApplication.run(NacosConfigMain3344.class,args);
-        log.info("*********** NacosConfigMain3344 启动成功 **********");
+        SpringApplication.run(GatewayMain9090.class,args);
+        log.info("********** Gateway9090 启动成功 *********");
     }
 }
-
-

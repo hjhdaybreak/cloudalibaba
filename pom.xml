@@ -13,6 +13,8 @@
         <module>cloud-dubbo-provider-payment8001</module>
         <module>cloud-dubbo-consumer-order80</module>
         <module>cloud-nacos-config3344</module>
+        <module>cloud-sentinel-payment8001</module>
+        <module>cloud-gateway9090</module>
     </modules>
 
     <packaging>pom</packaging>
