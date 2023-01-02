@@ -1,0 +1,16 @@
+server:
+  port: 6002
+spring:
+  application:
+    name: bank2-provider
+  cloud:
+    nacos:
+      discovery:
+        # Nacos server地址
+        server-addr: 192.168.174.129:8848
+
+  datasource:
+    url: jdbc:mysql://192.168.174.129:3306/bank2?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver

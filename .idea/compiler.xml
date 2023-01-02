@@ -10,6 +10,8 @@
         <module name="cloud-dubbo-provider-payment8001" />
         <module name="cloud-dubbo-consumer-order8002" />
         <module name="cloud-nacos-config3344" />
+        <module name="cloud-seata-bank1" />
+        <module name="cloud-seata-bank2" />
         <module name="cloud-sentinel-payment8001" />
         <module name="cloud-dubbo-consumer(sentinel)-order8002" />
         <module name="cloud-gateway9090" />

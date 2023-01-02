@@ -5,19 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="819c39ab-b941-45c1-ac48-27126f1f5be7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-dubbo-consumer-sentinel-order8002/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-dubbo-consumer-sentinel-order8002/src/main/java/com/bee/OrderConsumerDubboMain8002.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-dubbo-consumer-sentinel-order8002/src/main/java/com/bee/controller/GoodController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-dubbo-consumer-sentinel-order8002/src/main/java/com/bee/service/GoodService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-dubbo-consumer-sentinel-order8002/src/main/java/com/bee/service/fallback/GoodServiceFallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-dubbo-consumer-sentinel-order8002/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-dubbo-provider-payment8001/src/main/java/com/bee/service/impl/GoodServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-service-api/src/main/java/com/bee/service/IFindGood.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-dubbo-consumer-order8002/src/main/java/com/bee/OrderConsumerDubboMain8002.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-dubbo-consumer-order8002/src/main/java/com/bee/OrderConsumerDubboMain8002.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-dubbo-provider-payment8001/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-dubbo-provider-payment8001/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-dubbo-provider-payment8001/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-dubbo-provider-payment8001/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-sentinel-payment8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sentinel-payment8001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-api/src/main/java/com/bee/service/IPaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-api/src/main/java/com/bee/service/IPaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-seata-bank1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-seata-bank1/src/main/java/com/bee/SeataBank1Main6001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-seata-bank1/src/main/java/com/bee/controller/Bank2Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-seata-bank1/src/main/java/com/bee/entity/AccountInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-seata-bank1/src/main/java/com/bee/feign/Bank2ServiceFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-seata-bank1/src/main/java/com/bee/mapper/AccountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-seata-bank1/src/main/java/com/bee/service/IAccountInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-seata-bank1/src/main/java/com/bee/service/impl/AccountInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-seata-bank1/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-seata-bank2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-seata-bank2/src/main/java/com/bee/SeataBank2Main6002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-seata-bank2/src/main/java/com/bee/controller/Bank2Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-seata-bank2/src/main/java/com/bee/entity/AccountInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-seata-bank2/src/main/java/com/bee/mapper/AccountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-seata-bank2/src/main/java/com/bee/service/IAccountInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-seata-bank2/src/main/java/com/bee/service/impl/AccountInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-seata-bank2/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,6 +78,9 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="build.tools" />
   </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\cloudalibaba\cloud-dubbo-consumer-sentinel-order8002\src\main\resources" />
@@ -82,6 +89,9 @@
       <recent name="G:\cloudalibaba\cloud-dubbo-consumer(sentinel)-order8002\src\main\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bee.service" />
+      <recent name="com.bee.service.impl" />
+      <recent name="com.bee.mapper" />
       <recent name="com.bee.service.fallback" />
     </key>
   </component>
@@ -92,20 +102,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.PaymentSentinelMain8001">
-    <configuration name="GatewayMain9090" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-gateway9090" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bee.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bee.GatewayMain9090" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.SeataBank2Main6002">
     <configuration name="OrderConsumerDubboMain8002 (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-dubbo-consumer-sentinel-order8002" />
       <extension name="coverage">
@@ -115,21 +112,6 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.bee.OrderConsumerDubboMain8002" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderConsumerDubboMain8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-dubbo-consumer-order8002" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bee.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bee.OrderConsumerDubboMain8002" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -165,20 +147,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SeataBank1Main6001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-seata-bank1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bee.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bee.SeataBank1Main6001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeataBank2Main6002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-seata-bank2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bee.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bee.SeataBank2Main6002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Spring Boot.OrderConsumerDubboMain8002" />
       <item itemvalue="Spring Boot.ProviderDubboMain8001" />
       <item itemvalue="Spring Boot.PaymentSentinelMain8001" />
-      <item itemvalue="Spring Boot.GatewayMain9090" />
       <item itemvalue="Spring Boot.OrderConsumerDubboMain8002 (1)" />
+      <item itemvalue="Spring Boot.SeataBank2Main6002" />
+      <item itemvalue="Spring Boot.SeataBank1Main6001" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.SeataBank1Main6001" />
+        <item itemvalue="Spring Boot.SeataBank2Main6002" />
         <item itemvalue="Spring Boot.PaymentSentinelMain8001" />
         <item itemvalue="Spring Boot.OrderConsumerDubboMain8002 (1)" />
         <item itemvalue="Spring Boot.ProviderDubboMain8001" />
-        <item itemvalue="Spring Boot.GatewayMain9090" />
-        <item itemvalue="Spring Boot.OrderConsumerDubboMain8002" />
       </list>
     </recent_temporary>
   </component>
@@ -203,6 +211,7 @@
       <workItem from="1672546391760" duration="2334000" />
       <workItem from="1672561890929" duration="13083000" />
       <workItem from="1672630424139" duration="1106000" />
+      <workItem from="1672665703177" duration="6019000" />
     </task>
     <servers />
   </component>

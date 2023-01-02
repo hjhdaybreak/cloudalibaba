@@ -17,6 +17,8 @@
         <module>cloud-gateway9090</module>
 
         <module>cloud-dubbo-consumer-sentinel-order8002</module>
+        <module>cloud-seata-bank2</module>
+        <module>cloud-seata-bank1</module>
     </modules>
 
     <packaging>pom</packaging>
