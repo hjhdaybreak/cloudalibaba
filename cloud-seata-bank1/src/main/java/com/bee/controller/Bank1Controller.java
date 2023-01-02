@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/bank1")
-public class Bank2Controller {
+public class Bank1Controller {
 
 
     @Autowired

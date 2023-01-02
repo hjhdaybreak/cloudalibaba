@@ -38,6 +38,7 @@ public class AccountInfoServiceImpl implements IAccountInfoService {
             accountInfo.setAccountBalance(accountInfo.getAccountBalance() - amount);
             accountMapper.updateById(accountInfo);
 
+
             //远程调用 李四钱增加
             bank2ServiceFeign.transfer("2", amount);
         }

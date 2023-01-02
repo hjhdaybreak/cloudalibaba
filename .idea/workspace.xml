@@ -5,24 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="819c39ab-b941-45c1-ac48-27126f1f5be7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-seata-bank1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-seata-bank1/src/main/java/com/bee/SeataBank1Main6001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-seata-bank1/src/main/java/com/bee/controller/Bank2Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-seata-bank1/src/main/java/com/bee/entity/AccountInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-seata-bank1/src/main/java/com/bee/feign/Bank2ServiceFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-seata-bank1/src/main/java/com/bee/mapper/AccountMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-seata-bank1/src/main/java/com/bee/service/IAccountInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-seata-bank1/src/main/java/com/bee/service/impl/AccountInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-seata-bank1/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-seata-bank2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-seata-bank2/src/main/java/com/bee/SeataBank2Main6002.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-seata-bank2/src/main/java/com/bee/controller/Bank2Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-seata-bank2/src/main/java/com/bee/entity/AccountInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-seata-bank2/src/main/java/com/bee/mapper/AccountMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-seata-bank2/src/main/java/com/bee/service/IAccountInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-seata-bank2/src/main/java/com/bee/service/impl/AccountInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-seata-bank2/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-seata-bank1/src/main/java/com/bee/controller/Bank2Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-seata-bank1/src/main/java/com/bee/controller/Bank1Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-seata-bank1/target/classes/com/bee/controller/Bank2Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-seata-bank2/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-seata-bank2/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-seata-bank2/target/classes/com/bee/service/impl/AccountInfoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-seata-bank2/target/classes/com/bee/service/impl/AccountInfoServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +88,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SeataBank2Main6002">
+  <component name="RunManager" selected="Spring Boot.SeataBank1Main6001">
     <configuration name="OrderConsumerDubboMain8002 (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-dubbo-consumer-sentinel-order8002" />
       <extension name="coverage">
@@ -211,7 +197,7 @@
       <workItem from="1672546391760" duration="2334000" />
       <workItem from="1672561890929" duration="13083000" />
       <workItem from="1672630424139" duration="1106000" />
-      <workItem from="1672665703177" duration="6019000" />
+      <workItem from="1672665703177" duration="6969000" />
     </task>
     <servers />
   </component>
@@ -232,5 +218,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-seata-bank1/src/main/java/com/bee/service/impl/AccountInfoServiceImpl.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

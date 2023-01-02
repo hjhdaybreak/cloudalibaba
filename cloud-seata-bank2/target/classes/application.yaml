@@ -14,3 +14,14 @@ spring:
     username: root
     password: root
     driver-class-name: com.mysql.jdbc.Driver
+
+
+seata:
+  # 注册中心
+  registry:
+    type: file
+  service:
+    # seata服务端的地址和端口信息，多个使用英文分号分隔
+    grouplist:
+      default: 192.168.174.129:9999
+  tx-service-group: my_test_tx_group
