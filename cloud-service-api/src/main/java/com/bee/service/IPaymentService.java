@@ -4,5 +4,4 @@ public interface IPaymentService {
 
     String index();
 
-
 }

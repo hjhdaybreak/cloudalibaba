@@ -8,7 +8,9 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @EnableDiscoveryClient
 @SpringBootApplication
 @Slf4j
-
+/**
+ * 学习Sentinel fallback 和  blockHandler
+ */
 public class OrderConsumerDubboMain8002 {
     public static void main(String[] args) {
         SpringApplication.run(OrderConsumerDubboMain8002.class, args);

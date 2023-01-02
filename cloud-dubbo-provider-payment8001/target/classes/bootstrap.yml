@@ -15,7 +15,7 @@ spring:
         #nacos 服务器地址
         server-addr: 192.168.174.129:8848
         #命名空间 默认为 Public    命名空间的 UUID
-        namespace: db9bea26-35c7-4b25-af7d-44247fc28f11
+        namespace: 0ca3c323-9ced-4bdd-b757-5eb7cb2f0683
         #指定配置群组 --如果是 Public 命名空间 则可以省略群组配置
         group: DEFAULT_GROUP
         #文件名 -- 如果没有配置则默认为 ${spring.application.name}
